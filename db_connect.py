@@ -98,7 +98,7 @@ class DB_Connect:
 
         results = self.db.collection(category).get()
 
-        print(f"{'Item':<20}   {'Quantity':<10}  {'Units':<10}")
+        print(f"{'Item':<20}  {'Quantity':<10} {'Units':<10}")
         for result in results:
             stock = result.to_dict()
             print(f"{result.id:<20}  {stock['quantity']:<10}  {str(stock['units']):<10}")
@@ -129,7 +129,7 @@ class DB_Connect:
 
         #check if it's below desired quantity and print to the screen if so
         print("Search Results")
-        print(f"{'Category':<20} {'Item':<20} {'Quantity':<10}  {'Units':<10}")
+        print(f"{'Category':<20}  {'Item':<20}  {'Quantity':<10}   {'Units':<10}")
         for result in results1:
             stock = result.to_dict()
             if stock['quantity'] < 5:

@@ -1,36 +1,31 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I've always liked database, so I was very interested in how cloud databases work and how I can implement it into my programs. I decided to learn by writing a program for a fictional "Bob's Diner". This program will hold information for their food pantry by showing restock reports, adding new items, using items, and updating quantity. I created a class that's just solely for the database so Bob's Diner will know exactly how much of each item they have and when they need to reorder more.
 
-{Provide a description the software that you wrote and how it integrates with a Cloud Database.  Describe how to use your program.}
+Writing this program took away some of my nerves of working with cloud databases and learning more about how they can positively impact my future programs I write.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=qE_IZszlwkA)
 
 # Cloud Database
-
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+I'm using the Google Firestore Database to hold the information for this program.
+I'm using each individual collection (table) for each food category to keep it organized. Each document (row) will hold a single food item and each document has specific fields (columns) to keep information on name and quantity.
 
 # Development Environment
+Tools
+* Google Firestore Database
+* Visual Studio Code
 
-{Describe the tools that you used to develop the software}
+Language
+* Python
 
-{Describe the programming language that you used and any libraries.}
+Libraries
+* Firestore libraries
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Firestore Tutorial](https://firebase.google.com/docs/firestore)
+* [Replit Example Code](https://replit.com/@cmacbeth/CSE310CloudDBWorkshopSolution)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make it more flexible and let the user access adding quantity when trying to add a new item.
+* Make a loop that'll let the user go back and look at different food category.
+* Clean up the menu to make it more consistent with the code and other parts of the program.
