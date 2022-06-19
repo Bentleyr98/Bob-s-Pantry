@@ -104,6 +104,11 @@ class DB_Connect:
             print(f"{result.id:<20}  {stock['quantity']:<10}  {str(stock['units']):<10}")
         print() 
 
+    def delete_item(self, category):
+        self.item = input("Item to remove: ")
+        self.db.collection(category).document(self.item).delete()
+        print(f'{self.item} has been deleted from the system')
+
         
 
     def order_items(self):

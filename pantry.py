@@ -22,6 +22,7 @@ def options(category, db):
         print("2. Add Stock")
         print("3. Pull from Stock")
         print("4. View Items")
+        print('5. Delete Item from Pantry')
         choice = input(f"> ")
         print()
         if int(choice) == 1:
@@ -31,7 +32,9 @@ def options(category, db):
         elif int(choice) == 3:
             db.pull_items(category)
         elif int(choice) == 4:
-            db.view_stock(category)    
+            db.view_stock(category)   
+        elif int(choice) == 5:
+            db.delete_item(category) 
         elif int(choice) == 0:
             choice = 0
         else:
