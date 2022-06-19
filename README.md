@@ -1,6 +1,6 @@
 # Overview
 
-I've always liked database, so I was very interested in how cloud databases work and how I can implement it into my programs. I decided to learn by writing a program for a fictional "Bob's Diner". This program will hold information for their food pantry by showing restock reports, adding new items, using items, and updating quantity. I created a class that's just solely for the database so Bob's Diner will know exactly how much of each item they have and when they need to reorder more.
+I've always liked databases, so I was very interested in how cloud databases work and how I can implement it into my programs. I decided to learn by writing a program for a fictional "Bob's Diner". This program will hold information for their food pantry by showing restock reports, adding new items, using items, and updating quantity. I created a class that's just solely for the database so Bob's Diner will know exactly how much of each item they have and when they need to reorder more.
 
 Writing this program took away some of my nerves of working with cloud databases and learning more about how they can positively impact my future programs I write.
 
